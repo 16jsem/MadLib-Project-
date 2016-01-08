@@ -15,11 +15,16 @@ import Foundation
 print("CoupevilleLibs")
 var keepPlaying = true
 while keepPlaying == true {
+    print("Menu")
+    print("Please input command")
     func menuChoice(choice: String) -> String {
-        print("Menu")
-        print("Input commands")
         print("Madlib 1")
         print("Exit")
+    var choice = input()
+        if input() == "Madlib1" {
+            func(madlib1)
+        }else if input() == "Exit"{
+            print("Thanks for playing")
 }
 
 
