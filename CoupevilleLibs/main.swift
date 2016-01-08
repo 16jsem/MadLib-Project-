@@ -13,13 +13,15 @@ print("Hello, World!")
 
 import Foundation
 print("CoupevilleLibs")
-print("Hello, World!")
+var keepPlaying = true
+while keepPlaying == true {
+    func menuChoice(choice: String) -> String {
+        print("Menu")
+        print("Input commands")
+        print("Madlib 1")
+        print("Exit")
+}
 
-print("Madlib Menu")
-
-
-func menuChoice(choice: String)
-print("Madlib Menu")
 
 
 
