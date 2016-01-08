@@ -17,9 +17,9 @@ print("Hello, World!")
 
 print("Madlib Menu")
 
+
 func menuChoice(choice: String)
 print("Madlib Menu")
-
 
 
 
@@ -49,7 +49,7 @@ var C = input()
 print("Solve a problem")
 var D = input()
 print("With")
-print("Secret suace")
+print("Secret sauce")
 var E = input()
 
 
