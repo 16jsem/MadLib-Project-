@@ -15,9 +15,7 @@ import Foundation
 print("CoupevilleLibs")
 print("Hello, World!")
 
-print("Madlib Menu")
-
-func menuChoice(choice: String)
+func menuChoice(choice: String) -> String {
 print("Madlib Menu")
 
 
