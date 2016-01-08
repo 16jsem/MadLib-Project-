@@ -21,7 +21,6 @@ print("Madlib Menu")
 
 
 
-
 // madlib #1
 
 
@@ -47,8 +46,7 @@ var C = input()
 print("Solve a problem")
 var D = input()
 print("With")
-print("Secret suace")
+print("Secret sauce")
 var E = input()
 
-dhfdsjfgdjfas
 
