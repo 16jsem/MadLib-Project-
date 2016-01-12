@@ -32,17 +32,11 @@ while keepPlaying == true {
 
 
 // madlib #1
-
-
-
         
         
         print("Hello, World!")
         
-        
-        
-        
-        
+    
         
         
         func input() -> String {
@@ -73,11 +67,8 @@ while keepPlaying == true {
         
         
         // print
-        
-        
-        
-        
-        
+    
+        //madlib #2
         
         func input1() -> String {
             var keyboard = NSFileHandle.fileHandleWithStandardInput()
@@ -86,10 +77,6 @@ while keepPlaying == true {
             
             return strData.stringByTrimmingCharactersInSet(NSCharacterSet.newlineCharacterSet())
         }
-        
-        
-        
-        
         
         
         
@@ -125,25 +112,7 @@ while keepPlaying == true {
         
         
         
-        
-        
-        //print
-        
-        
-        
 
-
-// madlib #2
-
-
-
-func input() -> String {
-    var keyboard = NSFileHandle.fileHandleWithStandardInput()
-    var inputData = keyboard.availableData
-    var strData = NSString(data: inputData, encoding: NSUTF8StringEncoding)!
-    
-    return strData.stringByTrimmingCharactersInSet(NSCharacterSet.newlineCharacterSet())
-}
 
 
 
